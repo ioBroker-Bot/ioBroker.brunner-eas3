@@ -36,17 +36,11 @@ This adapter is NOT an official product from Urlich Brunner GmbH. It was develop
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* (JR-Home) release - prepared to be listed on offical IOBroker adapter selection
+
 ### 1.0.3 (2026-03-01)
 * (JR-Home) release published on NPM
-
-### 1.0.0 (2026-02-27)
-* (JR-Home) first initial release
-
-### 0.0.2 (2026-02-25)
-* (JR-Home) beta version
-
-### 0.0.1 (2026-02-23)
-* (JR-HOME) Initial test version
 
 ## License
 MIT License
