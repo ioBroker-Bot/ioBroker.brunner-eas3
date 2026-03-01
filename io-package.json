@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "brunner-eas3",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "news": {
+      "1.0.6": {
+        "en": "release",
+        "de": "release",
+        "ru": "освобождение",
+        "pt": "lançamento",
+        "nl": "release",
+        "fr": "libération",
+        "it": "rilascio",
+        "es": "liberación",
+        "pl": "zwolnienie",
+        "uk": "видання",
+        "zh-cn": "释放"
+      },
       "1.0.5": {
         "en": "release - prepared to be listed on offical IOBroker adapter selection",
         "de": "release - vorbereitet auf der Offical IOBroker Adapter Auswahl",
