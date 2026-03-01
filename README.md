@@ -36,7 +36,7 @@ This adapter is NOT an official product from Urlich Brunner GmbH. It was develop
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-### 1.0.4 (2026-03-01)
+### **WORK IN PROGRESS**
 * (JR-Home) release - prepared to be listed on offical IOBroker adapter selection
 
 ### 1.0.3 (2026-03-01)
