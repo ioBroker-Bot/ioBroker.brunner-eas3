@@ -1,6 +1,6 @@
 {
   "name": "iobroker.brunner-eas3",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Adapter for reading data from Brunner combustion control system EAS3",
   "author": {
     "name": "JR-Home",
