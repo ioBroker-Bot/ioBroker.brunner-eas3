@@ -16,19 +16,6 @@
         "uk": "реліз - готовий бути вказаний на вибір адаптера змінного струму IOBroker",
         "zh-cn": "释放 - 准备在 Official IOBroker 适配器选择上列出"
       },
-      "1.0.4": {
-        "en": "release - prepared to be listed on offical IOBroker adapter selection",
-        "de": "release - vorbereitet auf der Offical IOBroker Adapter Auswahl",
-        "ru": "релиз - готов к включению в список по выбору адаптеров IOBroker",
-        "pt": "lançamento - preparado para ser listado na seleção de adaptador oficial IOBroker",
-        "nl": "release - klaar om te worden vermeld op de officiële IOBroker adapter selectie",
-        "fr": "libération - prêt à être listé sur la sélection officielle de l'adaptateur IOBroker",
-        "it": "rilascio - preparato per essere elencato sulla selezione offical IOBroker adattatore",
-        "es": "versión - preparado para ser listado en la selección de adaptador IOBroker offical",
-        "pl": "release - przygotowany do umieszczenia na official IOBroker adapter wyboru",
-        "uk": "реліз - готовий бути вказаний на вибір адаптера змінного струму IOBroker",
-        "zh-cn": "释放 - 准备在 Official IOBroker 适配器选择上列出"
-      },
       "1.0.3": {
         "en": "release published on NPM",
         "de": "veröffentlicht auf NPM",
@@ -41,58 +28,6 @@
         "pl": "wydanie opublikowane na NPM",
         "uk": "випуск, опублікований на NPM",
         "zh-cn": "关于国家预防机制的发布"
-      },
-      "1.0.2": {
-        "en": "release published on NPM",
-        "de": "veröffentlicht auf NPM",
-        "ru": "опубликовано в NPM",
-        "pt": "lançamento publicado em NPM",
-        "nl": "release gepubliceerd op NPM",
-        "fr": "communiqué publié sur NPM",
-        "it": "pubblicato su NPM",
-        "es": "publicado en NPM",
-        "pl": "wydanie opublikowane na NPM",
-        "uk": "випуск, опублікований на NPM",
-        "zh-cn": "关于国家预防机制的发布"
-      },
-      "1.0.1": {
-        "en": "release published on NPM",
-        "de": "veröffentlicht auf NPM",
-        "ru": "опубликовано в NPM",
-        "pt": "lançamento publicado em NPM",
-        "nl": "release gepubliceerd op NPM",
-        "fr": "communiqué publié sur NPM",
-        "it": "pubblicato su NPM",
-        "es": "publicado en NPM",
-        "pl": "wydanie opublikowane na NPM",
-        "uk": "випуск, опублікований на NPM",
-        "zh-cn": "关于国家预防机制的发布"
-      },
-      "1.0.0": {
-        "en": "first initial release",
-        "de": "erste erstauslösung",
-        "ru": "первый первоначальный выпуск",
-        "pt": "primeira versão inicial",
-        "nl": "eerste eerste release",
-        "fr": "première libération initiale",
-        "it": "primo rilascio iniziale",
-        "es": "primer lanzamiento inicial",
-        "pl": "pierwsze wydanie początkowe",
-        "uk": "перший початковий реліз",
-        "zh-cn": "首次发布"
-      },
-      "0.0.2": {
-        "en": "initial release",
-        "de": "erstausstrahlung",
-        "ru": "первоначальное освобождение",
-        "pt": "libertação inicial",
-        "nl": "eerste release",
-        "fr": "libération initiale",
-        "it": "rilascio iniziale",
-        "es": "liberación inicial",
-        "pl": "początkowe zwolnienie",
-        "uk": "початковий реліз",
-        "zh-cn": "初步释放"
       }
     },
     "titleLang": {
