@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "brunner-eas3",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "news": {
+      "1.0.3": {
+        "en": "release published on NPM",
+        "de": "veröffentlicht auf NPM",
+        "ru": "опубликовано в NPM",
+        "pt": "lançamento publicado em NPM",
+        "nl": "release gepubliceerd op NPM",
+        "fr": "communiqué publié sur NPM",
+        "it": "pubblicato su NPM",
+        "es": "publicado en NPM",
+        "pl": "wydanie opublikowane na NPM",
+        "uk": "випуск, опублікований на NPM",
+        "zh-cn": "关于国家预防机制的发布"
+      },
       "1.0.2": {
         "en": "release published on NPM",
         "de": "veröffentlicht auf NPM",
