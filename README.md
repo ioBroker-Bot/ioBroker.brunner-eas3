@@ -36,7 +36,7 @@ This adapter is NOT an official product from Urlich Brunner GmbH. It was develop
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-### 1.0.1 (2026-02-27)
+### **WORK IN PROGRESS**
 * (JR-Home) release published on NPM
 
 ### 1.0.0 (2026-02-27)
