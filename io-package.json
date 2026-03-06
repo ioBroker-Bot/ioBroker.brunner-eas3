@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "brunner-eas3",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "news": {
+      "1.0.7": {
+        "en": "release - correction for publishing adapter on IOBroker dev portal",
+        "de": "release - Korrektur für die Veröffentlichung von Adapter auf IOBroker dev Portal",
+        "ru": "release - исправление для публикации адаптера на портале IOBroker dev",
+        "pt": "release - correção para publicação de adaptador no portal IOBroker dev",
+        "nl": "release - correctie voor het publiceren van adapter op IOBroker dev portal",
+        "fr": "release - correction pour l'adaptateur de publication sur le portail dev IOBroker",
+        "it": "rilascio - correzione per l'adattatore di pubblicazione sul portale IOBroker dev",
+        "es": "versión - corrección para el adaptador de publicación en el portal IOBroker dev",
+        "pl": "release - korekta do wydania adaptera na portalu IOBroker dev",
+        "uk": "iOBroker dev портал",
+        "zh-cn": "iOBroker dev 门户网站上发布适配器的更正"
+      },
       "1.0.6": {
         "en": "release",
         "de": "release",
