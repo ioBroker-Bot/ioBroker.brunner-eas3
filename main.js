@@ -92,7 +92,7 @@ class BrunnerEas3 extends utils.Adapter {
 					"zh-cn": "布伦纳壁炉燃烧室温度",
 				},
 				type: "number",
-				role: "indicator",
+				role: "value.temperature",
 				read: true,
 				write: false,
 				unit: "°C",
@@ -117,7 +117,7 @@ class BrunnerEas3 extends utils.Adapter {
 					"zh-cn": "布鲁纳壁炉燃烧状态",
 				},
 				type: "number",
-				role: "indicator",
+				role: "info.status",
 				read: true,
 				write: false,
 				unit: "",
@@ -143,7 +143,7 @@ class BrunnerEas3 extends utils.Adapter {
 						"zh-cn": "布鲁纳壁炉广播消息",
 					},
 					type: "string",
-					role: "indicator",
+					role: "text",
 					read: true,
 					write: false,
 					unit: "",
@@ -175,7 +175,7 @@ class BrunnerEas3 extends utils.Adapter {
 					"zh-cn": "布鲁纳壁炉最后一次燃烧",
 				},
 				type: "string",
-				role: "indicator",
+				role: "date",
 				read: true,
 				write: false,
 				unit: "",
@@ -200,7 +200,7 @@ class BrunnerEas3 extends utils.Adapter {
 					"zh-cn": "布鲁纳壁炉最后一次燃烧的毫秒数",
 				},
 				type: "number",
-				role: "indicator",
+				role: "value.timer",
 				read: true,
 				write: false,
 				unit: "ms",
@@ -225,7 +225,7 @@ class BrunnerEas3 extends utils.Adapter {
 					"zh-cn": "节气门",
 				},
 				type: "number",
-				role: "indicator",
+				role: "value.valve",
 				read: true,
 				write: false,
 				unit: "",
@@ -250,7 +250,7 @@ class BrunnerEas3 extends utils.Adapter {
 					"zh-cn": "添加更多木材",
 				},
 				type: "number",
-				role: "indicator",
+				role: "value",
 				read: true,
 				write: false,
 				unit: "",
@@ -274,8 +274,8 @@ class BrunnerEas3 extends utils.Adapter {
 					uk: "Зумер",
 					"zh-cn": "蜂鸣器",
 				},
-				type: "number",
-				role: "indicator",
+				type: "boolean",
+				role: "sensor.alarm",
 				read: true,
 				write: false,
 				unit: "",
@@ -300,7 +300,7 @@ class BrunnerEas3 extends utils.Adapter {
 					"zh-cn": "固件版本",
 				},
 				type: "number",
-				role: "indicator",
+				role: "info.firmware",
 				read: true,
 				write: false,
 				unit: "",
@@ -359,7 +359,7 @@ class BrunnerEas3 extends utils.Adapter {
 				}
 				await this.setStateChangedAsync(cBrunnerEAS3AbbrandStatus, iAbbrandStatus, true);
 				await this.setStateChangedAsync(cBrunnerEAS3Drosselklappe, parseInt(resultArray[4]), true);
-				await this.setStateChangedAsync(cBrunnerEAS3Summer, parseInt(resultArray[6]), true);
+				await this.setStateChangedAsync(cBrunnerEAS3Summer, parseInt(resultArray[6]) ? false : true, true);
 				await this.setStateChangedAsync(cBrunnerEAS3HolzNachlegen, parseInt(resultArray[7]), true);
 				await this.setStateChangedAsync(cBrunnerEAS3FirmwareVersion, parseInt(resultArray[9]), true);
 				if (this.config.AddUDPString == true) {

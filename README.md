@@ -17,13 +17,13 @@ Adapter for reading data from Brunner combustion control system EAS 3. The data 
 If the connection to EAS 3 is lost, the combustion temperature is set to -99.
 
 Burning states:
--1 - status not available, connection lost
- 0 - door open
- 1 - fire start
- 2 - fire step 2
- 5 - end of fire
- 6 - Error/Timeout, fire start not detected
- 7 - fire done. 
+* -1 - status not available, connection lost
+*  0 - door open
+*  1 - fire start
+*  2 - fire step 2
+*  5 - end of fire
+*  6 - Error/Timeout, fire start not detected
+*  7 - fire done. 
 
 
 ### DISCLAIMER
@@ -36,6 +36,9 @@ This adapter is NOT an official product from Urlich Brunner GmbH. It was develop
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* (JR-HOME) release - updating roles of IOBroker objects
+ 
 ### 1.0.7 (2026-03-06)
 * (JR-HOME) release - correction for publishing adapter on IOBroker dev portal
 
