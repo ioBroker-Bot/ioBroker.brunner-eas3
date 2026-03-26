@@ -308,7 +308,7 @@ class BrunnerEas3 extends utils.Adapter {
 			native: {},
 		});
 
-		// Bis zur ersten Nachricht ist die Temperatur -99 und Status -1!
+		// Until the first broadcast message from EAS 3, set temperatur to -99 and status -1!
 		await this.setState(cBrunnerEAS3HeizraumTemperatur, -99, true);
 		await this.setState(cBrunnerEAS3AbbrandStatus, -1, true);
 
@@ -330,7 +330,7 @@ class BrunnerEas3 extends utils.Adapter {
 
 		this.log.debug(`Bind UDP successfully done`);
 
-		// Mit der FW-Version 3.25 ist ein weiterer Parameter hinzugekommen. Bedeutung noch unklar. RegExpr. musste daher angepasst werden
+		// With EAS 3 FW-Version 3.25 new parameters are added
 		var re =
 			/<bdle eas.+stat="(\d+)">(\d+);(\d+);(\d+);(\d+);(\d+);(\d+);(\d+);(\d+);(\d+);(-?\d+);(\d+);(\d+);(\d+);?(\d*).+;<\/bdle>/;
 
@@ -349,7 +349,7 @@ class BrunnerEas3 extends utils.Adapter {
 				var AbbrandStatusAlt = await this.getStateAsync(cBrunnerEAS3AbbrandStatus);
 				if (AbbrandStatusAlt && typeof AbbrandStatusAlt.val === "number") {
 					if (iAbbrandStatus >= 2 && AbbrandStatusAlt.val >= 0 && AbbrandStatusAlt.val < 2) {
-						// Ein Abbrand ist zu Ende gegangen. Zeit merken
+						// End of fire. Remember time
 						await this.setState(cBrunnerEAS3LetzterAbbrandMS, { val: Date.now(), ack: true });
 						await this.setState(cBrunnerEAS3LetzterAbbrand, {
 							val: this.formatDate(Date.now(), "TT.MM.JJJJ SS:mm"),
@@ -360,12 +360,13 @@ class BrunnerEas3 extends utils.Adapter {
 				await this.setStateChangedAsync(cBrunnerEAS3AbbrandStatus, iAbbrandStatus, true);
 				await this.setStateChangedAsync(cBrunnerEAS3Drosselklappe, parseInt(resultArray[4]), true);
 				await this.setStateChangedAsync(cBrunnerEAS3Summer, parseInt(resultArray[6]) ? false : true, true);
-				await this.setStateChangedAsync(cBrunnerEAS3HolzNachlegen, parseInt(resultArray[7]), true);
+				// 16-we could add more wood, after this phase 48. Meaning of 48 unclear... 
+				await this.setStateChangedAsync(cBrunnerEAS3HolzNachlegen, parseInt(resultArray[12]), true);
 				await this.setStateChangedAsync(cBrunnerEAS3FirmwareVersion, parseInt(resultArray[9]), true);
 				if (this.config.AddUDPString == true) {
 					await this.setStateChangedAsync(cBrunnerEAS3Broadcast, sMessage, true);
 				}
-				// Wir haben Verbindung!
+				// Connection to Brunner EAS 3 established
 				await this.setStateChangedAsync(cBrunnerEAS3ConnectionState, true, true);
 			} else {
 				// this.log.debug(`Udp receive unknown message : ${sMessage}\n`);
