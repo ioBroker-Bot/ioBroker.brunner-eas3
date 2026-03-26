@@ -360,7 +360,7 @@ class BrunnerEas3 extends utils.Adapter {
 				await this.setStateChangedAsync(cBrunnerEAS3AbbrandStatus, iAbbrandStatus, true);
 				await this.setStateChangedAsync(cBrunnerEAS3Drosselklappe, parseInt(resultArray[4]), true);
 				await this.setStateChangedAsync(cBrunnerEAS3Summer, parseInt(resultArray[6]) ? false : true, true);
-				// 16-we could add more wood, after this phase 48. Meaning of 48 unclear... 
+				// 16-we could add more wood, after this phase 48. Meaning of 48 unclear...
 				await this.setStateChangedAsync(cBrunnerEAS3HolzNachlegen, parseInt(resultArray[12]), true);
 				await this.setStateChangedAsync(cBrunnerEAS3FirmwareVersion, parseInt(resultArray[9]), true);
 				if (this.config.AddUDPString == true) {
