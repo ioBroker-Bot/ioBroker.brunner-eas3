@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "brunner-eas3",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "news": {
+      "1.1.1": {
+        "en": "release - updating roles of IOBroker objects, corrected add more wood status",
+        "de": "release - Aktualisierung von Rollen von IOBroker-Objekten, korrigiert mehr Holzstatus hinzufügen",
+        "ru": "выпуск - обновление ролей объектов IOBroker, исправление добавить больше статуса древесины",
+        "pt": "lançamento - atualização de funções de objetos IOBroker, corrigido adicionar mais status de madeira",
+        "nl": "release - het bijwerken van rollen van IOBroker objecten, gecorrigeerd voeg meer houtstatus",
+        "fr": "release - mise à jour des rôles des objets IOBroker, corrigé ajouter plus d'état du bois",
+        "it": "rilascio - aggiornamento ruoli di oggetti IOBroker, corretto aggiungere più stato di legno",
+        "es": "lanzamiento - actualización de roles de objetos IOBroker, corregido añadir más estado de madera",
+        "pl": "release - aktualizacja ról obiektów IOBroker, poprawione dodać więcej statusu drewna",
+        "uk": "реліз - оновлення ролі об'єктів IOBroker, виправлено додавання більшого стану деревини",
+        "zh-cn": "释放 - 更新 IOBroker 对象的作用, 更正后添加更多木质状态"
+      },
       "1.1.0": {
         "en": "release - updating roles of IOBroker objects, corrected add more wood status",
         "de": "release - Aktualisierung von Rollen von IOBroker-Objekten, korrigiert mehr Holzstatus hinzufügen",
