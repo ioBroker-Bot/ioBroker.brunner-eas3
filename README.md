@@ -37,7 +37,7 @@ This adapter is NOT an official product from Urlich Brunner GmbH. It was develop
 	### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
-* (JR-HOME) release - updating roles of IOBroker objects
+* (JR-HOME) release - updating roles of IOBroker objects, corrected add more wood status
  
 ### 1.0.7 (2026-03-06)
 * (JR-HOME) release - correction for publishing adapter on IOBroker dev portal
