@@ -8,10 +8,10 @@
 // you need to create an adapter
 const utils = require("@iobroker/adapter-core");
 // Require dgram module.
-const dgram = require("dgram");
+const dgram = require("node:dgram");
 
 // Load your modules here, e.g.:
-// const fs = require("fs");
+// const fs = require("node:fs");
 
 const cBrunnerEAS3HeizraumTemperatur = "CombustionTemperature";
 const cBrunnerEAS3AbbrandStatus = "BurningStatus";
