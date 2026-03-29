@@ -5,20 +5,7 @@
     "news": {
       "1.1.1": {
         "en": "release - updating roles of IOBroker objects, corrected add more wood status",
-        "de": "release - Aktualisierung von Rollen von IOBroker-Objekten, korrigiert mehr Holzstatus hinzufügen",
-        "ru": "выпуск - обновление ролей объектов IOBroker, исправление добавить больше статуса древесины",
-        "pt": "lançamento - atualização de funções de objetos IOBroker, corrigido adicionar mais status de madeira",
-        "nl": "release - het bijwerken van rollen van IOBroker objecten, gecorrigeerd voeg meer houtstatus",
-        "fr": "release - mise à jour des rôles des objets IOBroker, corrigé ajouter plus d'état du bois",
-        "it": "rilascio - aggiornamento ruoli di oggetti IOBroker, corretto aggiungere più stato di legno",
-        "es": "lanzamiento - actualización de roles de objetos IOBroker, corregido añadir más estado de madera",
-        "pl": "release - aktualizacja ról obiektów IOBroker, poprawione dodać więcej statusu drewna",
-        "uk": "реліз - оновлення ролі об'єктів IOBroker, виправлено додавання більшого стану деревини",
-        "zh-cn": "释放 - 更新 IOBroker 对象的作用, 更正后添加更多木质状态"
-      },
-      "1.1.0": {
-        "en": "release - updating roles of IOBroker objects, corrected add more wood status",
-        "de": "release - Aktualisierung von Rollen von IOBroker-Objekten, korrigiert mehr Holzstatus hinzufügen",
+        "de": "release - Aktualisierung der Rollen von IOBroker-Objekten, Status Holz nachlegen korrgiert",
         "ru": "выпуск - обновление ролей объектов IOBroker, исправление добавить больше статуса древесины",
         "pt": "lançamento - atualização de funções de objetos IOBroker, corrigido adicionar mais status de madeira",
         "nl": "release - het bijwerken van rollen van IOBroker objecten, gecorrigeerd voeg meer houtstatus",
@@ -57,7 +44,7 @@
       },
       "1.0.5": {
         "en": "release - prepared to be listed on offical IOBroker adapter selection",
-        "de": "release - vorbereitet auf der Offical IOBroker Adapter Auswahl",
+        "de": "release - vorbereitet zur Veröffentlichung auf der offiziellen IOBroker Adapter Auswahl",
         "ru": "релиз - готов к включению в список по выбору адаптеров IOBroker",
         "pt": "lançamento - preparado para ser listado na seleção de adaptador oficial IOBroker",
         "nl": "release - klaar om te worden vermeld op de officiële IOBroker adapter selectie",
@@ -97,7 +84,7 @@
     },
     "desc": {
       "en": "Adapter for reading data from Brunner combustion control system EAS3",
-      "de": "Adapter zum Auslesen der Daten des Brunner-Verbrennungsregelsystems EAS3",
+      "de": "Adapter zum Auslesen von Daten der Brunner-Abbrandsteuerung EAS3",
       "ru": "Адаптер для чтения данных из системы управления горением Brunner EAS3",
       "pt": "Adaptador para leitura de dados do sistema de controle de combustão Brunner EAS3",
       "nl": "Adapter voor het uitlezen van gegevens van het Brunner verbrandingscontrolesysteem EAS3",

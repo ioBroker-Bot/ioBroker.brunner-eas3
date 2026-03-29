@@ -8,7 +8,7 @@
 // you need to create an adapter
 const utils = require("@iobroker/adapter-core");
 // Require dgram module.
-const dgram = require("dgram");
+const dgram = require("node:dgram");
 
 // Load your modules here, e.g.:
 // const fs = require("fs");
@@ -34,7 +34,8 @@ class BrunnerEas3 extends utils.Adapter {
 			name: "brunner-eas3",
 		});
 		this.on("ready", this.onReady.bind(this));
-		this.on("stateChange", this.onStateChange.bind(this));
+		// Currently not in use...
+		// this.on("stateChange", this.onStateChange.bind(this));
 		// this.on("objectChange", this.onObjectChange.bind(this));
 		// this.on("message", this.onMessage.bind(this));
 		this.on("unload", this.onUnload.bind(this));
@@ -374,8 +375,9 @@ class BrunnerEas3 extends utils.Adapter {
 			}
 		});
 
-		// Cyclic timer to check connection to EAS3
-		this.timerConnectionId = setInterval(
+		// Cyclic timer to check connection to EAS3. Do not use setInterval in adapters directly, always use this.setInterval
+		// (ensures that timers are cancelled on load)
+		this.timerConnectionId = this.setInterval(
 			async () => {
 				// if we have no updates for more than 2*60 seconds... than we have lost connection
 				var BrennraumTemp = await this.getStateAsync(cBrunnerEAS3HeizraumTemperatur);
@@ -437,7 +439,8 @@ class BrunnerEas3 extends utils.Adapter {
 			}
 			// clean up connection timer
 			if (this.timerConnectionId) {
-				clearInterval(this.timerConnectionId);
+				// Do not use clearInterval in adapters directly, always use this.clearInterval
+				this.clearInterval(this.timerConnectionId);
 				this.timerConnectionId = null;
 			}
 			callback();
@@ -470,6 +473,7 @@ class BrunnerEas3 extends utils.Adapter {
 	 * @param {string} id - State ID
 	 * @param {ioBroker.State | null | undefined} state - State object
 	 */
+	/* currently not used...
 	onStateChange(id, state) {
 		if (state) {
 			// The state was changed
@@ -487,6 +491,7 @@ class BrunnerEas3 extends utils.Adapter {
 			this.log.info(`state ${id} deleted`);
 		}
 	}
+	*/
 	// If you need to accept messages in your adapter, uncomment the following block and the corresponding line in the constructor.
 	// /**
 	//  * Some message was sent to this instance over message box. Used by email, pushover, text2speech, ...
