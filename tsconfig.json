@@ -25,6 +25,9 @@
 		// "noUnusedParameters": true,
 		"useUnknownInCatchVariables": false,
 
+		// RJ types required to supress warning about require node:dgram and reqire.main 
+		"types": ["node"],
+
 	},
 	"include": [
 		"**/*.js",
