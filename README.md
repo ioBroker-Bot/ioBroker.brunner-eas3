@@ -45,12 +45,6 @@ This adapter is NOT an official product from Urlich Brunner GmbH. It was develop
 ### 1.0.6 (2026-03-01)
 * (JR-HOME) release
 
-### 1.0.5 (2026-03-01)
-* (JR-Home) release - prepared to be listed on offical IOBroker adapter selection
-
-### 1.0.3 (2026-03-01)
-* (JR-Home) release published on NPM
-
 ## License
 MIT License
 
