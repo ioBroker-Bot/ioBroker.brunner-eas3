@@ -11,7 +11,7 @@ const utils = require("@iobroker/adapter-core");
 const dgram = require("node:dgram");
 
 // Load your modules here, e.g.:
-// const fs = require("fs");
+// const fs = require("node:fs");
 
 const cBrunnerEAS3HeizraumTemperatur = "CombustionTemperature";
 const cBrunnerEAS3AbbrandStatus = "BurningStatus";
