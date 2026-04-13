@@ -1,21 +1,8 @@
 {
   "common": {
     "name": "brunner-eas3",
-    "version": "1.1.2",
+    "version": "1.1.1",
     "news": {
-      "1.1.2": {
-        "en": "release - some non-functional changes to be compliant to all IOBroker bot checks",
-        "de": "release - einige nicht funktionierende Änderungen, die allen IOBroker Bot-Checks entsprechen",
-        "ru": "некоторые нефункциональные изменения, чтобы соответствовать всем проверкам ботов IOBroker",
-        "pt": "lançamento - algumas alterações não-funcionais para ser compatível com todas as verificações bot IOBroker",
-        "nl": "release - sommige niet-functionele wijzigingen die aan alle IOBroker botcontroles voldoen",
-        "fr": "libération - certains changements non fonctionnels pour être conforme à toutes les vérifications de bot IOBroker",
-        "it": "rilascio - alcune modifiche non funzionali da rispettare a tutti i controlli IOBroker bot",
-        "es": "liberación - algunos cambios no funcionales para ser compatibles con todos los cheques de bot IOBroker",
-        "pl": "release - niektóre niefunkcjonalne zmiany, które muszą być zgodne ze wszystkimi kontrolami robotami IOBroker",
-        "uk": "реліз - деякі нефункціональні зміни, які відповідають всім перевіркам ioBroker bot",
-        "zh-cn": "发布 - 一些非功能性更改以兼容所有 IOBroker 机器人检查"
-      },
       "1.1.1": {
         "en": "release - updating roles of IOBroker objects, corrected add more wood status",
         "de": "release - Aktualisierung der Rollen von IOBroker-Objekten, Status Holz nachlegen korrgiert",
